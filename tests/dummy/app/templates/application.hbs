@@ -1,3 +1,22 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<h2 id="title">Welcome to Movable</h2>
 
 {{outlet}}
+
+{{#movable-zone zone-id='movable' group='blue'}}
+  <div class="item steelblue">one</div>
+  <div class="item steelblue">two</div>
+  <div class="item steelblue">three</div>
+{{/movable-zone}}
+
+{{#movable-zone zone-id='movable' group='red'}}
+  <div class="item red">one</div>
+  <div class="item red">two</div>
+  <div class="item red">three</div>
+{{/movable-zone}}
+
+{{#movable-zone zone-id='movable' group='red'}}
+  <div class="item red">one</div>
+  <div class="item red">two</div>
+  <div class="item red">three</div>
+  <div class="item red ignore">ignored</div>
+{{/movable-zone}}
