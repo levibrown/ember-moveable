@@ -1,0 +1,26 @@
+#movable{
+  width:400px;
+  background: #ddd;
+  padding: 20px;
+  margin: 20px;
+}
+
+.item{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.steelblue{
+  background: steelblue;
+  color: white;
+}
+
+.red{
+  background: red;
+  color: white;
+}
+
+.ghost{
+  opacity: 0.5;
+}
